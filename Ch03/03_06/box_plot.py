@@ -39,4 +39,3 @@ speed.name = ''
 ax = speed.plot.box(title="Miki's Run")
 ax.set_ylabel(
     r'Running speed $\frac{km}{h}$')
-# %%

@@ -26,8 +26,8 @@ df.loc[2:7]
 df[['lat', 'lng']][2:7]
 
 # %%
-
 df.index
+
 # %%
 import numpy as np
 
@@ -64,5 +64,4 @@ df.loc[0]
 df.loc['2015-08-20 03:48:34']
 
 # %%
-
 df.loc['2015-08-20 03:48']
