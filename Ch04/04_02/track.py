@@ -63,6 +63,7 @@ def add_marker(row):
 
 add_marker(df.iloc[200])
 m
+
 # %%
 m = folium.Map(
     location=center,
