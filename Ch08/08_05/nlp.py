@@ -3,7 +3,7 @@ from sklearn.datasets import fetch_20newsgroups
 
 corpus = fetch_20newsgroups(
     categories=['sci.space'],
-    remove=['headers', 'footers'],
+    remove=('headers', 'footers'),
 )
 text = corpus['data'][4]
 print(text)
