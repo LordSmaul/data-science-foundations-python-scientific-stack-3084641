@@ -50,4 +50,4 @@ jdf = pd.merge(
 jdf.head()
 
 # %%
-jdf.plot.scatter(x='tempF', y='Vendor');
+jdf.plot.scatter(x='tempF', y='Vendor')
