@@ -22,7 +22,6 @@ pipe = Pipeline([
     ('svr', SVR()),
 ])
 
-
 # %%
 pipe.fit(X_train, y_train)
 pipe.score(X_test, y_test)
