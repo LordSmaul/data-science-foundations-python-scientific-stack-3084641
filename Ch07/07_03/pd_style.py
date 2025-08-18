@@ -22,7 +22,6 @@ def color_round(val):
 
 df.style.applymap(color_round)
 
-
 # %%
 def color_odd(val):
     if int(val) % 2 == 1:
